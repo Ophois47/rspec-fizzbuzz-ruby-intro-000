@@ -11,7 +11,7 @@ def fizzbuzz()
     "FizzBuzz"
   end
 
-  elsif int % 3 != 0 && int % 5 != 0
+  if int % 3 != 0 && int % 5 != 0
     nil
   end
 end
